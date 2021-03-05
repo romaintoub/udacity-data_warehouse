@@ -50,7 +50,7 @@ The project is divided into 3 important steps :
 
 1. Create tables with a star schema 
 
-<img src="sparkify_schema.jpg" alt="drawing" width="400"/>
+![Sparkify Schema](./static/sparkify_schema.jpg)
 
 The project is composed of one fact table and four dimension tables. The fact table, named _songplays_, records in log data associated with song plays. This table provides the metrics of the data I want to extract. The dimension tables provide information related to different dimensions of the fact table, such as _users_, _songs_, _artists_ and _time_ which records respectively the users, the songs, the artists and the timestamp of records in _songplays_ broken down into different units. 
 
